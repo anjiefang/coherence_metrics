@@ -18,7 +18,6 @@ parser.add_argument('miniD')
 parser.add_argument('m')
 
 print 'Reading ...'
-
 indices = {}
 words = []
 vector = []

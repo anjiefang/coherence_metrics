@@ -3,7 +3,7 @@ This code first runs an API server using a pre-train word embedding model (*app.
 Then use *cm.py* to evaluate the coherence metrics, average coherence or C@N (see Fang et al. 2016)
 
 
-### 1. Run an api server###
+### 1. Run an api server ###
 ------------------------------------------------------------------------
 
 `python app.py words.txt vectors.txt [port]`

@@ -6,9 +6,9 @@ import argparse
 from scipy import stats
 import json
 
-topic_URL = "http://130.209.249.32:9804/topic"
-word_URL = "http://130.209.249.32:9804/words"
-mix_URL = "http://130.209.249.32:9804/mix"
+topic_URL = "http://API_URL/topic"
+word_URL = "http://API_URL/words"
+mix_URL = "http://API_URL/mix"
 
 csvlib = csvLib()
 
@@ -68,7 +68,7 @@ def eva():
     parser.add_argument('-f', type=str, dest='inputfile', required=True)
     parser.add_argument('-c', type=str, dest='coherenceN', default='2,5,7')
     parser.add_argument('-models', default=False, dest='isModels', action='store_true')
-    parser.add_argument('-file', default=False, dest='isFile', action='store_true')
+    parser.add_argument('-file', default=True, dest='isFile', action='store_true')
     a = parser.parse_args()
 
     title = ['aver']

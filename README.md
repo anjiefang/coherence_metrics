@@ -2,7 +2,6 @@ This python code is used to evaluate coherence of topics from a topic model.
 This code first runs an API server using a pre-train word embedding model (*app.py*).
 Then use *cm.py* to evaluate the coherence metrics, average coherence or C@N (see Fang et al. 2016)
 
-------------------------------------------------------------------------
 
 ### 1. Run an api server###
 ------------------------------------------------------------------------

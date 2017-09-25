@@ -18,7 +18,7 @@ In a topic model, *K* topics are represented by the top 10 woprds, e.g. *topics_
 To evalute a single topic model:  
 `python cm.py -f topic_exmaple.txt`  
 To evaluate several topic models using the same configuration (e.g. K), put all topics file in a folder *[topics_folders]* and use the command:  
-`python cm.py -f *[topics_folders]* -models`  
+`python cm.py -f [topics_folders] -models`  
 
 
 ### References ###
